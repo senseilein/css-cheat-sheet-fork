@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    border: 2px solid white;
+    display: flex;
+    margin: 50px;
+}
+
+.card {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 10px;
+}
+
+h3 {
+    color: purple
+}
+
+p {
+    color: purple;
+}
+
+pre {
+
+    color: white;
+}
